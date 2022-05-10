@@ -1,0 +1,35 @@
+footer {
+  box-sizing: border-box;
+  align-items: center;
+  font-size: 0.8rem;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+footer a {
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+.desenvolvido {
+  font-size: 0.6rem;
+  color: rgba(255, 255, 255, 0.3);
+  font-weight: lighter;
+  text-align: center;
+}
+a:hover {
+  color: #9de8ff;
+}
+@media (max-width: 700px) {
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
