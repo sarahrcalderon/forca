@@ -6,8 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Forkah</title>
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style.min.css">
   <link rel="icon" href="/favicon.png" type="image/x-icon">
+  <script defer src="./script.js"></script>
   <meta name="description" content="Jogo da Forca">
   <script src="https://kit.fontawesome.com/e3c06f5ca8.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -42,13 +43,18 @@
     </div>
   </div>
   <div class="palavra-secreta-container"></div>
+
   <a class="back" href="./index.html">Voltar</a>
+
   <div class="popup-container">
     <div class="popup">
       <h2 id="mensagem"></h2>
+      <button id="btn-jogar" onclick="reiniciarJogo()">
+        Jogar novamente
+      </button>
     </div>
   </div>
-  <script src="script.js"></script>
+
 </body>
 <footer>
   <ul>
